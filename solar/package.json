@@ -1,0 +1,53 @@
+{
+  "name": "solar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongodb": "^3.5.8",
+    "radium": "^0.26.0",
+    "react": "^16.8.6",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.8.6",
+    "react-ionicons": "^3.0.1",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.1.0",
+    "sha256": "^0.2.0",
+    "uuid": "^8.1.0"
+  },
+  "scripts": {
+    "start_react": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start_server": "babel-node server",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
